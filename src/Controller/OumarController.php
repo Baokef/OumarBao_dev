@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class OumarController extends AbstractController
 {
     /**
-     * @Route("/")
+     * @Route("/app_maison")
      */
     public function index(): Response
     {
