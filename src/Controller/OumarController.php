@@ -9,14 +9,14 @@ use Symfony\Component\Routing\Annotation\Route;
 class OumarController extends AbstractController
 {
     /**
-     * @Route("/oumar", name="app_oumar")
+     * @Route("/")
      */
     public function index(): Response
     {
         // return $this->render('oumar/index.html.twig', [
         //     'controller_name' => 'OumarController',
         // ]);
-        return new Response("hello world");
+        return new Response("Na nga def Oumar?");
         return $this->json(['message' => 'Hello world']);
     }
 }
