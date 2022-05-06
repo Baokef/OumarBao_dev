@@ -16,7 +16,7 @@ class PinController extends AbstractController
     {
         $pin = new Pin;
         dump($pin);
-        dd($pin);
+        #dd($pin);
 
         return $this->render('pin/index.html.twig', [
             'controller_name' => 'PinController',
